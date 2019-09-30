@@ -129,12 +129,8 @@
 <script>
 import BipNode from '@/components/develop/BipNode'
 import BipNodeTable from '@/components/develop/BipNodeTable'
-const bitcoin = require('bitcoinjs-lib')
 const bip32 = require('bip32')
 const bip39 = require('bip39')
-
-const ethers = require('ethers')
-const HDNode = ethers.utils.HDNode
 
 export default {
   components: { BipNode, BipNodeTable },
